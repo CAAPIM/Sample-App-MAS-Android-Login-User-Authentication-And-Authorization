@@ -12,4 +12,4 @@
 a. Publish Web API -> Enter Service name as retrieveFlights and Gateway URL as retrieveFlights -> Finish  
 b. File -> Import Policy (into your newly created api) -> Select retrieveFlights.xml
 5. Build and Deploy the app to a device.
-6. Login to app with a valid user and you it will retreive the flight info from the database as a json
+6. Login to app with a valid user and it will retreive the flight info from the database as a json
