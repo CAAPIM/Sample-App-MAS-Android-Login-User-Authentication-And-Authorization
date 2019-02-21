@@ -27,7 +27,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.ca:mas-foundation:1.8.00'
-    implementation 'com.ca:masui:1.8.00' //remove if not using UI template
+    implementation 'com.ca:mas-foundation:1.9.10'
+    implementation 'com.ca:masui:1.9.10' //remove if not using UI template
 
 }
