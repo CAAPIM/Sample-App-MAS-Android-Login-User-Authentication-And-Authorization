@@ -6,7 +6,7 @@
 
 ## Get Started
 1. In Android Studio, open the project 'MASLoginUserAuthentication'.
-2. In the CA OAuth Manager, create an app, and export the msso_config file (https://you_server_name:8443/oauth/manager). For help with this file, see [Android Guide](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html).
+2. In the CA OAuth Manager, create an app, and export the msso_config file (https://you_server_name:8443/oauth/manager). For help with this file, see [Android Guide](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-1.html).
 3. Copy the contents of the exported msso_config to src/main/assets/msso_config.json.
 4. In Policy Manager, import the policy retrieveFlights.xml as /retrieveFlights  
 a. Publish Web API -> Enter Service name as retrieveFlights and Gateway URL as retrieveFlights -> Finish  
