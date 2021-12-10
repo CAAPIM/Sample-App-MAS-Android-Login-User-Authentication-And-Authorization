@@ -5,4 +5,12 @@
     <string name="action_settings">Settings</string>
     <string name="acc_name">My Account</string>
     <string name="authenticator_label">CA</string>
+
+
+    <!-- Espresso testing -->
+    <!--Login Automation-->
+    <string name="user_name">admin</string>
+    <string name="password">7layer</string>
+    <string name="get_flight_result">{\"products\":[{\"id\":1,\"name\":\"AC544\",\"Time 13:00\":\"On Time\"},{\"id\":2,\"name\":\"WJ6345\",\"Arrival Time 14:55\":\"Delayed\"},{\"id\":3,\"name\":\"BA2490\",\"Arrival Time 14:55\":\"On Time\"},{\"id\":4,\"name\":\"AA1452\",\"Arrival Time 15:15\":\"Early Arrival\"},{\"id\":5,\"name\":\"WJ2678\",\"Arrival Time 16:32\":\"Delayed\"},{\"id\":6,\"name\":\"AC4455\",\"Arrival Time 17:45\":\"On Time\"}],\"device_geo\":\"\",\"clientCert.subject\":\"CN=admin, OU=931a7360dad4d4d4e3092ba7582e200c8ccf2e743950459ca84ca3f484dd146c, DC=AOSPonIAEmulator, O=Broadcom\"}</string>
+
 </resources>

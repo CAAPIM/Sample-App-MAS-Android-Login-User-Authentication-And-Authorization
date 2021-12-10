@@ -1,6 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/overflow"
+        android:icon="@mipmap/ic_action_overflow"
+        app:showAsAction="always"
+        android:title="overflow">
+        <menu>
+            <item android:id="@+id/Settings"
+                android:title="Settings"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/Logout"
+                android:title="Logout"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/Reset"
+                android:title="Reset Locally"
+                app:showAsAction="ifRoom"/>
+
+
+
+        </menu>
+    </item>
+
 </menu>
