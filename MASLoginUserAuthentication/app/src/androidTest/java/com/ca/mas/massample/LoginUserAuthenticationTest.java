@@ -56,7 +56,7 @@ public class LoginUserAuthenticationTest {
 
 
     @Test
-    public void LoginText() throws InterruptedException {
+    public void LoginTest() throws InterruptedException {
 
         Thread.sleep(10000);
         onView(withId(R.id.activity_mas_login_edit_text_username)).check(matches(isDisplayed()));
